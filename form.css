@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 500px;
+    margin: 0 auto;
+}
+.l{
+    border: 1px solid rgba(100, 100, 100, 0.5) ;
+    padding: 7px;
+    background: white;
+}
+fieldset{
+    margin-top: 40px;
+    border:1.5px solid rgba(100, 100, 100, 0.5);
+    padding: 40px;
+    background:url('images/blue_background.jpg')
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea
+{
+    display:block;
+    border: solid 1px #454545;
+    padding: 2%;
+    width: 46%;
+    font-size: 14px;
+    color: #777;
+    font-family:Monaco,monospace;
+    margin:0 0 20px;
+}
+
+textarea{
+    resize: none;
+}
+label{
+    font-size: 15px;
+    background: url('images/red_background.jpg');
+    display: block;
+    width: 46%;
+    padding: 2%;
+    color: #fff
+}
+
+input[type="submit"]
+{
+    background: none;
+    background: url('images/button_background.jpg') repeat-x;
+    border:solid 1px #777;
+    height: 40px;
+    padding: 0 40px;
+    color: #fff;
+    font-family: helvetica;
+
+}
+input[type="submit"]:hover{
+    border: #444;
+    background: url('images/button_background\ -upside-down.jpg');
+    cursor: pointer;
+}
